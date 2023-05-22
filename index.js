@@ -13,7 +13,7 @@ convertBtn.addEventListener("click", function() {
     
     lengthEl.textContent = `${baseValue} meter = ${(baseValue * meterToFeet).toFixed(3)} feet | ${baseValue} feet = ${(baseValue / meterToFeet).toFixed(3)} meter` 
     
-    volumeEl.textContent = `${baseValue} liters = ${(baseValue * literToGallon).toFixed(3)} gallons | ${baseValue} gallons = ${(baseValue / meterToFeet).toFixed(3)} liters` 
+    volumeEl.textContent = `${baseValue} liters = ${(baseValue * literToGallon).toFixed(3)} gallons | ${baseValue} gallons = ${(baseValue / literToGallon).toFixed(3)} liters` 
     
-    massEl.textContent = `${baseValue} kilograms = ${(baseValue * literToGallon).toFixed(3)} pounds | ${baseValue} pounds = ${(baseValue / meterToFeet).toFixed(3)} kilograms` 
+    massEl.textContent = `${baseValue} kilograms = ${(baseValue * kiloToPound).toFixed(3)} pounds | ${baseValue} pounds = ${(baseValue / kiloToPound).toFixed(3)} kilograms` 
 })
