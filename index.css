@@ -1,10 +1,8 @@
 body {
     margin: 0;
     position: relative;
-    width: 550px;
-    height: 729px;
-    left: 696px;
-    top: 126px;
+    left: 40%;
+    top: 50%;
     text-align: center;
     background: #1F2937;
 }
